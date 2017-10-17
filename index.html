@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping List</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header><h1>Shopping List</h1></header>
+    <section>
+        <form class="listInput">
+            <label for="item-input">Items</label>
+            <input id="item-input" type="text" placeholder="Input Item Here">
+            <button type="submit">Add To List</button>
+        </form>
+        <h3>Shopping List <span class="itemsInList"></span></h3>
+        <ul class="shopping-list-items">
+            <!-- append list items here -->
+        </ul>
+    </section>
+    <aside>
+        <div>
+            <h3>Shopping Cart Items <span class="itemsInCart"></span></h3>
+            <ul class='shopping-cart-list'>
+                <!-- append cart items here -->
+            </ul>
+        </div>
+    </aside>
+    <footer></footer>
+</body>
+</html>

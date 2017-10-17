@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+body header{
+    grid-column: 1 / -1;
+    text-align: center; 
+}
+
+section{
+    grid-column: 2/4;
+}
+
+aside{
+    grid-column: 4;
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+button{
+    margin-left: 10px;
+    background-color: lightgreen;
+}
